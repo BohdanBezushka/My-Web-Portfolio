@@ -11,3 +11,18 @@ body {
     background-color: white;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+/*Nav bar*/
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Media queries */
+
+/* For small screens sizes from 770px wide and down */
+@media screen and (max-width: 770px)
