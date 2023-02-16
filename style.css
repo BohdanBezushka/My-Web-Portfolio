@@ -1,6 +1,7 @@
 /*Font type*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
+/*General styles*/
 *{
     margin:0;
     padding:0;
@@ -8,8 +9,19 @@
 }
 
 body {
-    background-color: white;
+    background-color:white;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 /*Nav bar*/
@@ -20,9 +32,33 @@ body {
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
+    font-size: 1.25rem;
+}
+
+/*Hero section*/
+.hero {
+    background-color:white;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-img {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+
+.hero-main h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
 }
 
 /* Media queries */
 
 /* For small screens sizes from 770px wide and down */
-@media screen and (max-width: 770px)
+@media screen and (max-width: 770px){
+    .navbar-brand {
+        display: none;
+    }
+}
