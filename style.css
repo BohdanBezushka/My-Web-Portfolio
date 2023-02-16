@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 /*General styles*/
-
 body {
-    background-color:white;
+    color: white;
+    background-color:black;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -30,9 +30,16 @@ h1 {
     font-size: 1.25rem;
 }
 
+.navbar-toggler-icon {
+    color: aquamarine;
+}
+
+.nav-link {
+    color:white;
+}
+
 /*Hero section*/
 .hero {
-    background-color:white;
     min-height: 450px;
     text-align: center;
 }
