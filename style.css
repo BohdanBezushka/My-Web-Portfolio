@@ -22,6 +22,7 @@ h1 {
 /*Nav bar*/
 .navbar {
     padding: 1rem;
+    background-color: black;
 }
 
 .navbar-collapse {
