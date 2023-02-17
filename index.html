@@ -23,27 +23,35 @@
 </head>
 <body>
     <!--Navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-light border-bottom sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbar-toggler">
             <a class="navbar-brand" href="#">
-                <img src="/images/icono-historiadeunprogramador.png" width="60" alt="Website logo">
+                <img src="/images/icon-historiadeunprogramador.png" width="60" alt="Website logo">
             </a>
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">About me</a>
+                <button type="button" class="btn btn-primary">
+                  <a class="nav-link" aria-current="page" href="#about-me">About me</a>
+                </button>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <button type="button" class="btn btn-primary">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </button>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <button type="button" class="btn btn-primary">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </button>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <button type="button" class="btn btn-primary">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </button>
               </li>
             </ul>
           </div>
@@ -51,16 +59,17 @@
       </nav>
     
       <!--Hero section-->
-      <section class="hero align-items-stretch border-bottom">
+      <section class="hero align-items-stretch">
         <div class=" hero-main d-flex flex-column justify-content-center align-items-center ">
-            <img class="hero-img" src="/images/descarga.svg" alt="Photo by Bohdan Bezushka">
-            <h1>Hello, I'm Bohdan Bezushka Perepelytsia</h1>
+            <img class="hero-img" src="/images/draw-bohdan.gif" alt="Photo by Bohdan Bezushka">
+            <p>Hi, my name is</p>
+            <h1>Bohdan Bezushka Perepelytsia</h1>
             <h2>Full Stack Developer</h2>
         </div>
       </section>
 
       <!--About me-->
-      <section class="sobre-mi seccion-oscura">
+      <section id="about-me" class="sobre-mi seccion-oscura">
         <div class="contenedor">
           <h2 class="seccion-titulo">About me</h2>
           <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut mattis leo. Vestibulum at erat ac nulla malesuada varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla sollicitudin nunc quis risus feugiat, eget aliquam sem facilisis. Curabitur ullamcorper convallis lectus, in venenatis est facilisis eu. Proin fermentum lectus dui, scelerisque dignissim massa efficitur in. Pellentesque non tortor id arcu malesuada facilisis a at urna. Aliquam suscipit orci semper nunc interdum, id venenatis nulla sodales. Maecenas egestas malesuada mi, non maximus lacus luctus vitae.</p>
@@ -150,7 +159,7 @@
 
       <!--Footer-->
       <footer class="d-flex flex-column align-items-center justify-content-center">
-        <img class="footer-logo" src="/images/icono-historiadeunprogramador.png" alt="Logo of Historia de un programdor">
+        <img class="footer-logo" src="/images/icon-historiadeunprogramador.png" alt="Logo of Historia de un programdor">
 
         <p class="footer-texto text-center">"Keep learning and creating."<br>Historia De Un Programador</p>
         <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
