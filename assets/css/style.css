@@ -16,7 +16,9 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #0a192f;
+    border-top: 4px solid #ccd6f6;
+    border-right: 4px solid #ccd6f6;
 }
 
 .bg-color-contact {
@@ -313,6 +315,29 @@ h5.general-sub {
 }
 
 /* ----------------------------------------Skills */
+.col-md-8.bg-color-three-reasons.section-column {
+    background-color: #0a192f;
+    border-top: 4px solid #ccd6f6;
+}
+
+h4.three-reasons-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #a8b2d1;
+}
+
+.info-full {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #64ffda;
+}
+
+h3.section-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #ccd6f6;
+}
 
 .progress {
     position: relative;
@@ -336,20 +361,29 @@ h5.general-sub {
 /* ----------------------------------------Work History */
 
 .history-heading {
-    color: #fafafa;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #ccd6f6;
     margin-bottom: 50px;
 }
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #fafafa;
     border-left: 1px solid;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #a8b2d1;
 }
 
 .timeline-item p {
     padding: 0;
     margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #64ffda;
 }
 
 .timeline-item:before {
@@ -358,8 +392,6 @@ h5.general-sub {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
     font-size: 0.8em;
     padding: 0;
     margin: 0;
