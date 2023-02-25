@@ -1,9 +1,47 @@
 /*Font type*/
-  @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Work+Sans:ital,wght@0,300;0,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /*Icons*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 /*General styles*/
+body {
+    font-family: 'VT323', monospace;
+}
+
+/*Header*/
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/Pixel-Bohdan-Bezushka.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.bg-color-name-title {
+    background-color: #112240;
+    color: #ccd6f6;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.name {
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    color:#64ffda;
+}
