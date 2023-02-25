@@ -1,0 +1,26 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bohdan Bezushka Perepelytsia | Full Stack Developer </title>
+
+    Favicon:
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    SEO:
+    <meta name="author" content="Bohdan Bezushka Perepelytsia">
+    <meta name="description" content="Full Stack Developer Portfolio of Bohdan Bezushka Perepelytsia">
+    <meta name="keywords" content="HTML, CSS, javascript, python, bootstrap, AngularJS, jQuery, D3.js, dc.js, crossfilter.js, Flask, Django, MongoDB, MySQL, GitHub, Heroku, Bohdan, Bohdan Bezushka, Bohdan Bezushka Perepelytsia, developer, full stack, web developer">
+
+    Bootstrap CSS:
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+
+    Font Awesome:
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    Stylesheet:
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>-->
