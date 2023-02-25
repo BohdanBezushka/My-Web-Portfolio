@@ -7,10 +7,15 @@
 /*General styles*/
 body {
     font-family: 'VT323', monospace;
+    background: #112240;
 }
 
 /*Header*/
 header {
+    margin: 0;
+}
+
+#nav {
     margin: 0;
 }
 
@@ -19,7 +24,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 418px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -36,13 +41,13 @@ header {
 
 .name {
     font-size: 50px;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .title {
     font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 45px;
+    margin-bottom: 90px;
     color:#64ffda;
 }
 
