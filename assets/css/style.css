@@ -170,11 +170,10 @@ header {
 }
 
 .menuitem span {
-    font-size: 50px;
+    font-size: 20px;
     width: 100%;
     padding-top: 5px;
     text-align: center;
-    font-size: 14px;
     color: #ccd6f6;
 }
 
