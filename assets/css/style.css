@@ -101,7 +101,7 @@ header {
 }
 
 .logo {
-    background: url("../images/Diseño\ sin\ título\ \(2\).png");
+    background: url("../images/bohdan-bezushka-perepelytsia.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -463,3 +463,35 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
+
+/* For medium screens sizes from 920px wide and down */
+@media screen and (max-width: 900px){
+    .menuitem span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .logo {
+        border-right:0px;
+    }
+
+    .bg-color-personal-info {
+        border-top: 0px;
+        border-right: 0px;
+    }
+
+    .col-md-8.bg-color-three-reasons.section-column {
+        border-top: 0px;
+    }
+
+    .bg-color-work-history {
+        border-top: 0px;
+        border-right: 0px;
+    }
+
+    .bg-color-contact {
+        border-top: 0px;
+    }
+}
+
